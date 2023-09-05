@@ -16,6 +16,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Domainden sonraki gelecek url'yi belirler.
+// ?id gelmese de olur anlamýndadýr. Domain adý / home / index  
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
