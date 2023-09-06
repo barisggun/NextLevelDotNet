@@ -14,6 +14,8 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
+// Middleware
 app.UseStaticFiles(); // wwwroot'un içerisindeki dosyalarý kullanýr. Kullanmazsak CSS JS dosyalarýna eriþemeyiz.
 
 app.UseRouting();
