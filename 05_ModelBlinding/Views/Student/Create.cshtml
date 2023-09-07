@@ -1,0 +1,27 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@* <form action="/Student/Create/" method="post">
+    <input type="text" />
+    <select>
+        <option></option>
+    </select>
+</form> *@
+
+
+@*  asp-action="Create" asp-controller="Student" *@
+<form asp-action="Create" method="post">
+    <input asp-for="Name" />
+    <br />
+    <input asp-for="Surname" />
+    <br />
+    <input asp-for="TCKN" />
+    <br />
+    <button type="submit">Kaydet</button>
+</form>
+
+@* <partial name="" /> *@
+
