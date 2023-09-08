@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_HttpMethods", "04_HttpMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ModelBlinding", "05_ModelBlinding\05_ModelBlinding.csproj", "{8362BFBD-B290-491B-9314-E49E03D640EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_CustomTagHelper", "06_CustomTagHelper", "{58769341-EA3B-4B80-8332-B80461C60068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTagHelper", "CustomTagHelper\CustomTagHelper.csproj", "{3F9717D7-1547-48D2-B646-38A80ADB8195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,16 @@ Global
 		{8362BFBD-B290-491B-9314-E49E03D640EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8362BFBD-B290-491B-9314-E49E03D640EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8362BFBD-B290-491B-9314-E49E03D640EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F9717D7-1547-48D2-B646-38A80ADB8195} = {58769341-EA3B-4B80-8332-B80461C60068}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B95EC56D-84D2-4070-93FB-B42D1CBC86E5}
