@@ -10,7 +10,7 @@ namespace _07_FluentValidation
         public UserValidator()
         {
             RuleFor(x => x.Mail).MaximumLength(100).WithMessage("{0} en fazla {1} karakter olmaıdır.")
-                .MinimumLength(30).WithMessage("en az 30");
+                .MinimumLength(30).WithMessage("en az 30").EmailAddress();
 
             RuleFor(x => x.Password).NotNull().WithMessage("Zorunlu alan");
            

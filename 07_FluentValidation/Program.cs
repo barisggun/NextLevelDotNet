@@ -1,4 +1,5 @@
 using FluentValidation.AspNetCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 //Fluent validation eklendi.
-builder.Services.AddFluentValidation();
+//builder.Services.AddFluentValidation(config => config.RegisterValidatorsFromAssembly(Assembly.Load("_02_FluentValidation")));
+
+
+//builder.Services.AddFluentValidation(config => config.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+
+builder.Services.AddFluentValidation(config => config.RegisterValidatorsFromAssemblyContaining<Program>());
+
 
 var app = builder.Build();
 
