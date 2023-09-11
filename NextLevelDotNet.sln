@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_WebAPI", "03_WebAPI\03_W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_HttpMethods", "04_HttpMethods\04_HttpMethods.csproj", "{3D12394B-93AC-4054-A0CF-566733FE4238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ModelBlinding", "05_ModelBlinding\05_ModelBlinding.csproj", "{8362BFBD-B290-491B-9314-E49E03D640EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ModelBlinding", "05_ModelBlinding\05_ModelBlinding.csproj", "{8362BFBD-B290-491B-9314-E49E03D640EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_CustomTagHelper", "06_CustomTagHelper", "{58769341-EA3B-4B80-8332-B80461C60068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTagHelper", "CustomTagHelper\CustomTagHelper.csproj", "{3F9717D7-1547-48D2-B646-38A80ADB8195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTagHelper", "CustomTagHelper\CustomTagHelper.csproj", "{3F9717D7-1547-48D2-B646-38A80ADB8195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ModelBinding02", "06_ModelBinding02\06_ModelBinding02.csproj", "{4465C07C-2E44-41EE-8F36-85FB521ACA70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9717D7-1547-48D2-B646-38A80ADB8195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
