@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTagHelper", "CustomTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ModelBinding02", "06_ModelBinding02\06_ModelBinding02.csproj", "{4465C07C-2E44-41EE-8F36-85FB521ACA70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_FluentValidation", "07_FluentValidation\07_FluentValidation.csproj", "{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4465C07C-2E44-41EE-8F36-85FB521ACA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
