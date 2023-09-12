@@ -17,11 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_CustomTagHelper", "06_Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTagHelper", "CustomTagHelper\CustomTagHelper.csproj", "{3F9717D7-1547-48D2-B646-38A80ADB8195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ModelBinding02", "06_ModelBinding02\06_ModelBinding02.csproj", "{4465C07C-2E44-41EE-8F36-85FB521ACA70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_ModelBinding02", "06_ModelBinding02\06_ModelBinding02.csproj", "{4465C07C-2E44-41EE-8F36-85FB521ACA70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_FluentValidation", "07_FluentValidation\07_FluentValidation.csproj", "{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_FluentValidation", "07_FluentValidation\07_FluentValidation.csproj", "{F5E2E1D9-0231-4ADE-9C42-1D669B4443DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ValidationMVC", "08_ValidationMVC\08_ValidationMVC.csproj", "{9DB1DE49-CB3F-4460-AFBA-40AC2117D013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_ValidationMVC", "08_ValidationMVC\08_ValidationMVC.csproj", "{9DB1DE49-CB3F-4460-AFBA-40AC2117D013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_CustomModelBinder", "09_CustomModelBinder\09_CustomModelBinder.csproj", "{09820A4A-87B4-4092-BE01-9408772BD15D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{9DB1DE49-CB3F-4460-AFBA-40AC2117D013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB1DE49-CB3F-4460-AFBA-40AC2117D013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB1DE49-CB3F-4460-AFBA-40AC2117D013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09820A4A-87B4-4092-BE01-9408772BD15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09820A4A-87B4-4092-BE01-9408772BD15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09820A4A-87B4-4092-BE01-9408772BD15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09820A4A-87B4-4092-BE01-9408772BD15D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
