@@ -14,8 +14,8 @@ namespace _09_CustomModelBinder.Controllers
             //date.GetType().GetProperty("Year").GetType(); //Object sınıfının içerisinde yazılan bir metottur.
 
             //typeof(DateTime).GetProperties();
-
-            if(date == default(DateTime))
+        
+            if (date == default(DateTime))
             {
                 return BadRequest();
             }
