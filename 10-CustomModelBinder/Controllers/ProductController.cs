@@ -8,7 +8,7 @@ namespace _10_CustomModelBinder.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        [HttpPost("ProductID")]
+        [HttpPost("{ProductID}")]
         public IActionResult AddProduct(Product product)
         {
             return Ok();
