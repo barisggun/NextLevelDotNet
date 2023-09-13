@@ -14,8 +14,6 @@ namespace _11_Polymorphism
             //body (metotun ne iş yapacağını belirtir)
             return "Cik cik";
         }
-
- 
     }
 
     class Karga : Kus
